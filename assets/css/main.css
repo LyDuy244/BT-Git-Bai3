@@ -1,0 +1,119 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu-item {
+  width: 16.6666666667%;
+}
+.menu-item:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #ff8761;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+.menu-link:hover {
+  background-color: #fa5a43;
+}
+.menu-icon {
+  margin-right: 1rem;
+}
+
+.main {
+  height: 130rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1.8rem;
+  background-color: #f2f1c6;
+  padding: 3rem;
+}
+.footer-wrapper:first-child {
+  width: 30%;
+}
+.footer-wrapper address {
+  line-height: 1.8;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.footer-title {
+  margin-bottom: 3rem;
+  color: #000;
+}
+.footer p {
+  line-height: 1.8;
+}
+.footer-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #aea3a2;
+  padding-bottom: 1rem;
+  -webkit-transition: color 0.25s linear;
+  transition: color 0.25s linear;
+  will-change: color;
+}
+.footer-link:hover {
+  color: #000;
+}
