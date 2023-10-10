@@ -39,6 +39,12 @@ img {
           justify-content: space-between;
 }
 
+.menu.is-active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .menu-list {
   width: 100%;
   display: -webkit-box;
@@ -72,7 +78,7 @@ img {
 }
 
 .main {
-  height: 130rem;
+  height: 200rem;
 }
 
 .footer {
@@ -116,4 +122,25 @@ img {
 }
 .footer-link:hover {
   color: #000;
+}
+
+.btn-back {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  background-color: #000;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+}
+.btn-back.is-active {
+  opacity: 1;
+  visibility: visible;
 }
